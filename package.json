@@ -4,8 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "css": "node-sass css/ -o webroot/css",
-        "css:watch": "npm run css && node-sass css/ -w -o webroot/css"
+        "css": "node-sass scss/ -o webroot/css",
+        "css:watch": "npm run css && node-sass scss/ -w -o webroot/css"
     },
     "repository": {
         "type": "git",
