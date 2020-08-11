@@ -1,0 +1,23 @@
+{
+    "name": "game-landing-page-responsive",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "css": "node-sass css/ -o webroot/css",
+        "css:watch": "npm run css && node-sass css/ -w -o webroot/css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Voninkazo/Game-landing-page-responsive.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Voninkazo/Game-landing-page-responsive/issues"
+    },
+    "homepage": "https://github.com/Voninkazo/Game-landing-page-responsive#readme",
+    "devDependencies": {
+        "node-sass": "^4.14.1"
+    }
+}
