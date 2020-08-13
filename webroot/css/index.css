@@ -2,10 +2,40 @@
   font-family: 'open-sans-bold';
   font-weight: 600;
   font-style: normal;
-  src: url(../webroot/fonts/open-sans-bold.woff) format("woff"), url(../webroot/fonts/open-sans-bold.woff2) format("woff2"); }
+  src: url(../fonts/open-sans-bold.woff) format("woff"), url(../webroot/fonts/open-sans-bold.woff2) format("woff2"); }
 
-@font-face {}@font-face {}nav ul {
+@font-face {
+  font-family: 'open-sans';
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/open-sans-regular.woff) format("woff"), url(../fonts/open-sans-regular.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'bebas-neue-regular';
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/bebas-neue-regular.woff) format("woff"), url(../fonts/bebas-neue-regular.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'bebas-neue-bold';
+  font-weight: 600;
+  font-style: normal;
+  src: url(../fonts/bebas-neue-bold.woff) format("woff"), url(../fonts/bebas-neue-bold.woff2) format("woff2"); }
+
+nav ul {
   padding: 0; }
 
+html {
+  margin: 0; }
+
 body {
-  font-family: 'open-sans-bold'; }
+  font-family: 'open-sans'; }
+
+p.big_button a {
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-radius: 2.94008px;
+  padding-inline-start: 6px;
+  padding-inline-end: 14.91px;
+  padding-block-start: 11.9px;
+  padding-block-end: 15.97px;
+  color: #1A1917; }
