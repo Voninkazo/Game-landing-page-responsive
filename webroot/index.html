@@ -10,23 +10,23 @@
 <body>
     <header>
         <h1></h1>
-        <p><a href="/sos"><span>sos</span></a></p>
+        <p><a class="anchor link_sos_logo" href="/sos"><span>sos</span></a></p>
         <input type="checkbox" id="menue_checkbox">
         <nav>
             <label for="menue_checkbox" class="icon_menu">
               <span>Open the menu</span>
           </label>
-            <ul>
-                <li><a href="/main">Main</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/game-features">Game features</a></li>
-                <li><a href="/system-requirements">System requirements</a></li>
-                <li><a href="/quotes">Quotes</a></li>
+            <ul class="all_list_container">
+                <li><a class="anchor" href="/main">Main</a></li>
+                <li><a class="anchor" href="/about">About</a></li>
+                <li><a class="anchor" href="/game-features">Game features</a></li>
+                <li><a class="anchor" href="/system-requirements">System requirements</a></li>
+                <li><a class="anchor" href="/quotes">Quotes</a></li>
             </ul>
         </nav>
         <form action="." method="GET">
             <label for="lang_dropdown">Language</label>
-            <select name="lang" id="lang_dropdown">
+            <select class="dropdown" name="lang" id="lang_dropdown">
                 <option lang="en" value="en" label="English">
                 <option lang="ru" value="ru" label="русский">
                 <option lang="fr" value="fr" label="Français">
@@ -37,14 +37,14 @@
     <main>
         <section>
             <header>
-                <h2>Survive at all costs</h2>
+                <h2 class="section_heading">Survive at all costs</h2>
             </header>
             <p>Experience new social battle royale game</p>
-            <p>
-                <a href="/button-buy">Buy now on Steam $14.99</a>
+            <p class="big_button">
+                <a class="anchor" href="/button-buy">Buy now on Steam $14.99</a>
             </p>
             <nav>
-                <ul>
+                <ul class="all_list_container">
                     <li>
                         <details>
                             <summary>The history</summary>
@@ -52,38 +52,38 @@
                         </details>
                     </li>
                     <li>
-                        <a href="/first"><span>Page1</span></a>
+                        <a class="anchor anchor_checked" href="/first"><span>Page1</span></a>
                     </li>
                     <li>
-                        <a href="/second"><span>Page2</span></a>
+                        <a class="anchor" href="/second"><span>Page2</span></a>
                     </li>
                     <li>
-                        <a href="/third"><span>Page3</span></a>
+                        <a class="anchor" href="/third"><span>Page3</span></a>
                     </li>
                     <li>
-                        <a href="/fourth"><span>Page4</span></a>
+                        <a class="anchor" href="/fourth"><span>Page4</span></a>
                     </li>
                 </ul>
             </nav>
         </section>
         <section>
-            <p>What is sos?</p>
+            <p class="question_header">What is sos?</p>
             <header>
-                <h2>Social battle royale game</h2>
+                <h2 class="section_heading">Social battle royale game</h2>
             </header>
-            <p>Each round, you and 15 other contestants compete to escape a deadly island filled with monsters. The trick is: three people can survive. Will you run solo or form friendships with others to escape?
+            <p class="artice_text">Each round, you and 15 other contestants compete to escape a deadly island filled with monsters. The trick is: three people can survive. Will you run solo or form friendships with others to escape?
             </p>
-            <p>
+            <p class="artice_text">
                 Making the right decisions could be the difference between life and death.
             </p>
         </section>
         <section>
-            <p>What is so special?</p>
+            <p class="question_header">What is so special?</p>
             <header>
-                <h2>Features</h2>
+                <h2 class="section_heading">Features</h2>
             </header>
             <nav>
-                <ul>
+                <ul class="all_list_container">
                     <li>
                         <details>
                             <summary>Survive at all costs</summary>
@@ -106,9 +106,9 @@
             </nav>
         </section>
         <section>
-            <p>Can my computer run this game?</p>
-            <h2>System requirements</h2>
-            <ul>
+            <p class="question_header">Can my computer run this game?</p>
+            <h2 class="section_heading">System requirements</h2>
+            <ul class="all_list_container">
                 <li>
                     <h4>OS:</h4>
                     <p>Windows 7 64-bit only (No OSX support at this time)</p>
@@ -132,17 +132,17 @@
             </ul>
         </section>
         <section>
-            <p>What people think?</p>
-            <h2>Press quotes</h2>
-            <p>
+            <p class="question_header">What people think?</p>
+            <h2 class="section_heading">Press quotes</h2>
+            <p class="artice_text">
                 Our goal is to create a product and service that you’re satisfied with and use it every day. This is why we’re constantly working on our services to make it better every day and really listen to what our users has to say.
             </p>
-            <p><a href="/read-more">Read more testemonials</a></p>
+            <p class="big_button"><a class="anchor" href="/read-more">Read more testemonials</a></p>
         </section>
         <section>
-            <p>Want to saty in touch?</p>
-            <h2>Newsletter subcribe</h2>
-            <p>
+            <p class="question_header">Want to saty in touch?</p>
+            <h2 class="section_heading">Newsletter subcribe</h2>
+            <p class="artice_text">
                 In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.
             </p>
             <fieldset>
@@ -151,30 +151,30 @@
                 </legend>
                 <input type="email" id="email" name="email">
             </fieldset>
-            <p><a href="/subscribe">Subscribe now</a></p>
+            <p class="big_button"><a class="anchor" href="/subscribe">Subscribe now</a></p>
         </section>
         <footer>
-            <p><a href="/logo">Logo</a></p>
+            <p><a class="anchor link_logo_footer" href="/logo">Logo</a></p>
             <nav>
-                <ul>
-                    <li><a href="/main">Main</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/game-feature">Game features</a></li>
-                    <li><a href="/system">System requirements</a></li>
-                    <li><a href="/quotes">Quotes</a></li>
+                <ul class="all_list_container link_text__list">
+                    <li><a class="anchor" href="/main">Main</a></li>
+                    <li><a class="anchor" href="/about">About</a></li>
+                    <li><a class="anchor" href="/game-feature">Game features</a></li>
+                    <li><a class="anchor" href="/system">System requirements</a></li>
+                    <li><a class="anchor" href="/quotes">Quotes</a></li>
                 </ul>
-                <ul>
-                    <li><a href="-fb">fb</a></li>
-                    <li><a href="/twitter">twitter</a></li>
-                    <li><a href="/video">video</a></li>
-                    <li><a href="/message">message</a></li>
+                <ul class="all_list_container link_icon__lists">
+                    <li><a class="anchor" href="-fb">fb</a></li>
+                    <li><a class="anchor" href="/twitter">twitter</a></li>
+                    <li><a class="anchor" href="/video">video</a></li>
+                    <li><a class="anchor" href="/message">message</a></li>
                 </ul>
                 <div>
                     <p>© 2018 Outpost Games, Inc. All Rights Reserved</p>
-                    <ul>
-                        <li><a href="/privacy">Privacy Policy</a></li>
-                        <li><a href="/terms">Terms of services</a></li>
-                        <li><a href="/code">Code of conduct</a></li>
+                    <ul class="all_list_container">
+                        <li><a class="anchor" href="/privacy">Privacy Policy</a></li>
+                        <li><a class="anchor" href="/terms">Terms of services</a></li>
+                        <li><a class="anchor" href="/code">Code of conduct</a></li>
                     </ul>
                 </div>
             </nav>
