@@ -39,3 +39,33 @@ p.big_button a {
   padding-block-start: 11.9px;
   padding-block-end: 15.97px;
   color: #1A1917; }
+
+.anchor {
+  text-decoration: none;
+  display: block;
+  margin: 0; }
+
+body > header > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+[type="checkbox"] {
+  visibility: hidden; }
+
+body > header .navigation {
+  display: none;
+  background-color: #cccc;
+  transform: translateX(-100%);
+  top: 50%;
+  left: 100%; }
+
+body > header {
+  padding-block-start: 9px;
+  padding-block-end: 179px;
+  padding-inline-start: 15px;
+  padding-inline-end: 15px;
+  background-color: red; }
+
+h1 {
+  margin: 0; }
