@@ -5,18 +5,6 @@ body>header>div {
     justify-content: space-between;
 }
 
-[type="checkbox"] {
-    visibility: hidden;
-}
-
-body>header .navigation {
-    display: none;
-    background-color: #cccc;
-    transform: translateX(-100%);
-    top: 50%;
-    left: 100%;
-}
-
 body>header {
     padding-block-start: 9px;
     padding-block-end: 179px;
@@ -29,4 +17,10 @@ h1 {
     margin: 0;
 }
 
-input:checked~nav {}
+@media (min-width: 1114px) {
+    body>header>div {
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        max-width: 1114px;
+    }
+}

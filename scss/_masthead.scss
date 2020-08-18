@@ -41,21 +41,43 @@
     }
 }
 
+.masthead_header {
+    font-family: $header-font-bold;
+    font-size: 33px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+
 .masthead_title {
     font-family: 'bebas-neue-bold';
     font-size: 18px;
     line-height: 18px;
     text-align: center;
     letter-spacing: 2px;
+    margin: 0;
+    padding-block-start: 7px;
+    padding-block-end: 7px;
 }
 
 @media (min-width: 1114px) {
     .masthead_navigation {
-        text-align: center;
+        justify-content: center;
         padding-block-start: 143px;
         padding-block-end: 64px;
     }
     .masthead_list_container {
         display: none;
+    }
+    .masthead_header {
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .masthead_dropdown {
+        display: block;
+        text-align: center;
     }
 }
