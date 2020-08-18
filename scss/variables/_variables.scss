@@ -6,3 +6,51 @@
 
 $mobile-section-padding: 15px;
 $header-font-bold: 'bebas-neue-bold';
+$paragraph-font-size:14px;
+$sect-header-font-size:33px;
+$small-title-fonts-size:18px;
+$text-line-height: 16px;
+$sect-header-line-height: 33px;
+$small-title-height:18px;
+$desk-text-height: 22px;
+$desk-header-font: 80px;
+$desk-header-height: 80px;
+$desk-title-font:24px;
+$desk-title-height: 24px;
+$default-text-color: #FFFFFF;
+@mixin texts-style {
+    font-size: $paragraph-font-size;
+    line-height: $text-line-height;
+    color: $default-text-color;
+}
+
+@mixin big-header-style {
+    font-size: $sect-header-font-size;
+    line-height: $sect-header-line-height;
+    font-family: $header-font-bold;
+    letter-spacing: 2px;
+    color: $default-text-color;
+}
+
+@mixin small-title-style {
+    font-size: $small-title-fonts-size;
+    line-height: $small-title-height;
+    color: $default-text-color;
+    text-transform: uppercase;
+    font-family: $header-font-bold;
+}
+
+@mixin desk-header {
+    font-size: $desk-header-font;
+    line-height: $desk-header-height;
+    letter-spacing: 3px;
+}
+
+@mixin deskt-text-style {
+    line-height: $desk-text-height;
+}
+
+@mixin deskt-title-style {
+    font-size: $desk-title-font;
+    line-height: $desk-title-height;
+}

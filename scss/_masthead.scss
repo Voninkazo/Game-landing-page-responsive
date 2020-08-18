@@ -42,22 +42,15 @@
 }
 
 .masthead_header {
-    font-family: $header-font-bold;
-    font-size: 33px;
-    line-height: 33px;
+    @include big-header-style;
     text-align: center;
-    letter-spacing: 3px;
     text-transform: uppercase;
-    color: #FFFFFF;
     margin: 0;
 }
 
 .masthead_title {
-    font-family: 'bebas-neue-bold';
-    font-size: 18px;
-    line-height: 18px;
+    @include small-title-style;
     text-align: center;
-    letter-spacing: 2px;
     margin: 0;
     padding-block-start: 7px;
     padding-block-end: 7px;
@@ -73,8 +66,7 @@
         display: none;
     }
     .masthead_header {
-        font-size: 80px;
-        line-height: 80px;
+        @include desk-header;
     }
     .masthead_dropdown {
         display: block;
