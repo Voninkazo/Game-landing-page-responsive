@@ -25,6 +25,12 @@
 .section_masthead {
   padding: 15px; }
 
+main > header {
+  background-image: url(../img/bg-big-image-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 34% 40%; }
+
 .masthead_navigation {
   display: flex;
   flex-direction: row;
@@ -64,7 +70,8 @@
   color: #FFFFFF;
   text-align: center;
   text-transform: uppercase;
-  margin: 0; }
+  margin: 0;
+  padding-block-start: 389px; }
 
 .masthead_title {
   font-size: 18px;
@@ -97,7 +104,8 @@ html {
 
 body {
   font-family: 'open-sans';
-  background-color: #cccc; }
+  background-color: #cccc;
+  position: relative; }
 
 .big_button {
   font-family: 'open-sans-bold';
@@ -125,13 +133,20 @@ body {
 body > header > div {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap; }
 
 body > header {
   padding-block-start: 9px;
   padding-block-end: 179px;
   padding-inline-start: 15px;
-  padding-inline-end: 15px; }
+  padding-inline-end: 15px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 931px;
+  height: 144.88px; }
 
 h1 {
   margin: 0; }
@@ -240,3 +255,15 @@ body > [type="checkbox"]:checked ~ nav {
     letter-spacing: 3px; }
   .article_text {
     line-height: 22px; } }
+
+.section_royal {
+  padding: 15px; }
+  .section_royal p:nth-of-type(2) {
+    padding-block-start: 26px; }
+  .section_royal h2 {
+    padding-block-end: 33px;
+    border-bottom: 1px solid #FFFFFF;
+    margin: 0; }
+
+.royal-text {
+  padding-inline-start: calc(36px - 15px); }

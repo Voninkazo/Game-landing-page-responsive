@@ -1,0 +1,17 @@
+@import "./variables/variables";
+.section_royal {
+    padding: $section-padding;
+    p:nth-of-type(2) {
+        padding-block-start: 26px;
+    }
+    h2 {
+        padding-block-end: 33px;
+        border-bottom: 1px solid #FFFFFF;
+        margin: 0;
+    }
+}
+
+.royal-text {
+    padding-inline-start: calc(36px - 15px);
+    // margin: 0;
+}

@@ -18,6 +18,7 @@ $desk-header-height: 80px;
 $desk-title-font:24px;
 $desk-title-height: 24px;
 $default-text-color: #FFFFFF;
+$section-padding: 15px;
 @mixin texts-style {
     font-size: $paragraph-font-size;
     line-height: $text-line-height;

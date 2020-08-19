@@ -12,6 +12,7 @@
     <input type="checkbox" name="menu-checkbox" id="menu_checkbox">
     <header>
         <div class="header_wrapper">
+            <!-- <div class="header_container"> -->
             <h1>
                 <a class="anchor link_sos_logo" href="/sos">
                     <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -34,6 +35,14 @@
                 <option lang="de" value="de" label="Deutsch">
             </select>
             </form>
+            <label for="menu_checkbox" class="icon_menu">
+                <span><svg width="25" height="18" viewBox="0 0 25 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="9.49854" y="15.0166" width="14.585" height="2.5" rx="1.25" fill="white"/>
+                    <rect x="0.596191" y="7.51657" width="23.4873" height="2.5" rx="1.25" fill="white"/>
+                    <rect x="0.596191" y="0.016571" width="23.4873" height="2.5" rx="1.25" fill="white"/>
+                    </svg> 
+                </span>
+            </label>
             <nav class="navigation">
                 <ul class="all_list_container header_nav">
                     <li><a class="anchor" href="/main">Main</a></li>
@@ -43,14 +52,6 @@
                     <li><a class="anchor" href="/quotes">Quotes</a></li>
                 </ul>
             </nav>
-            <label for="menu_checkbox" class="icon_menu">
-                <span><svg width="25" height="18" viewBox="0 0 25 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="9.49854" y="15.0166" width="14.585" height="2.5" rx="1.25" fill="white"/>
-                    <rect x="0.596191" y="7.51657" width="23.4873" height="2.5" rx="1.25" fill="white"/>
-                    <rect x="0.596191" y="0.016571" width="23.4873" height="2.5" rx="1.25" fill="white"/>
-                    </svg> 
-                </span>                       
-            </label>
         </div>
     </header>
     <main>
@@ -94,16 +95,18 @@
                 </nav>
             </section>
         </header>
-        <section>
-            <p class="question_header">What is sos?</p>
-            <header>
-                <h2 class="section_heading">Social battle royale game</h2>
-            </header>
-            <p class="article_text">Each round, you and 15 other contestants compete to escape a deadly island filled with monsters. The trick is: three people can survive. Will you run solo or form friendships with others to escape?
-            </p>
-            <p class="article_text">
-                Making the right decisions could be the difference between life and death.
-            </p>
+        <section class="section_royal">
+            <div class="section_wrapper">
+                <p class="question_header">What is sos?</p>
+                <header>
+                    <h2 class="section_heading royal_heading">Social battle royale game</h2>
+                </header>
+                <p class="article_text royal-text">Each round, you and 15 other contestants compete to escape a deadly island filled with monsters. The trick is: three people can survive. Will you run solo or form friendships with others to escape?
+                </p>
+                <p class="article_text royal-text">
+                    Making the right decisions could be the difference between life and death.
+                </p>
+            </div>
         </section>
         <section>
             <p class="question_header">What is so special?</p>

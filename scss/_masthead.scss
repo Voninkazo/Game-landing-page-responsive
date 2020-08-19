@@ -3,6 +3,13 @@
     padding: $mobile-section-padding;
 }
 
+main>header {
+    background-image: url(../img/bg-big-image-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 34% 40%;
+}
+
 .masthead_navigation {
     display: flex;
     flex-direction: row;
@@ -46,6 +53,7 @@
     text-align: center;
     text-transform: uppercase;
     margin: 0;
+    padding-block-start: 389px;
 }
 
 .masthead_title {
