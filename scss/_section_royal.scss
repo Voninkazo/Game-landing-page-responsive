@@ -4,19 +4,20 @@
                 background-image: url(../img/royal-bg.png);
                 background-repeat: no-repeat;
                 background-size: cover;
+                .section_royal_wrapper {
+                    padding-block-end: 37px;
+                }
                 p:nth-of-type(2) {
                     padding-block-start: 26px;
+                }
+                .images_container {
+                    max-width: calc(37px + 225px);
                 }
                 h2 {
                     padding-block-end: 33px;
                     border-bottom: 1px solid #FFFFFF;
                     margin: 0;
                 }
-                // .section_royal_wrapper {
-                //     background-image: url(../img/royal-bg.png);
-                //     background-repeat: no-repeat;
-                //     background-size: cover;
-                // }
             }
             
             .royal-text {
@@ -70,4 +71,27 @@
                 left: calc(100% * 24 / 249);
                 right: 0;
                 transform: scale(calc((273 - 48) / 273));
+            }
+            
+            @media (min-width: 1114px) {
+                .section_royal_wrapper {
+                    max-width: 1114px;
+                    margin: auto;
+                    // display: grid;
+                    // grid-template-columns: repeat(2, 1fr);
+                    padding-block-end: 265px;
+                }
+                .royal-text {
+                    padding-inline-start: calc(307px - 118px);
+                    // margin: 0;
+                }
+                .text_container {
+                    max-width: calc(410px + 170px);
+                    // margin-right: calc(510px + 28px + 48px);
+                }
+                .images_container {
+                    max-width: calc(510px + 28px + 48px);
+                    float: right;
+                    clear: left;
+                }
             }

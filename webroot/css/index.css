@@ -264,8 +264,12 @@ body > [type="checkbox"]:checked ~ nav {
   background-image: url(../img/royal-bg.png);
   background-repeat: no-repeat;
   background-size: cover; }
+  .section_royal .section_royal_wrapper {
+    padding-block-end: 37px; }
   .section_royal p:nth-of-type(2) {
     padding-block-start: 26px; }
+  .section_royal .images_container {
+    max-width: calc(37px + 225px); }
   .section_royal h2 {
     padding-block-end: 33px;
     border-bottom: 1px solid #FFFFFF;
@@ -312,3 +316,17 @@ body > [type="checkbox"]:checked ~ nav {
   left: calc(100% * 24 / 249);
   right: 0;
   transform: scale(calc((273 - 48) / 273)); }
+
+@media (min-width: 1114px) {
+  .section_royal_wrapper {
+    max-width: 1114px;
+    margin: auto;
+    padding-block-end: 265px; }
+  .royal-text {
+    padding-inline-start: calc(307px - 118px); }
+  .text_container {
+    max-width: calc(410px + 170px); }
+  .images_container {
+    max-width: calc(510px + 28px + 48px);
+    float: right;
+    clear: left; } }
