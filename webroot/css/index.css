@@ -330,3 +330,18 @@ body > [type="checkbox"]:checked ~ nav {
     max-width: calc(510px + 28px + 48px);
     float: right;
     clear: left; } }
+
+.feature_section {
+  background-image: url(../img/features.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0; }
+
+.feature_wrapper {
+  padding-block-end: 85px;
+  padding-block-start: 82px; }
+
+@media (min-width: 1114px) {
+  .feature_wrapper {
+    max-width: 1114px;
+    margin: auto; } }
