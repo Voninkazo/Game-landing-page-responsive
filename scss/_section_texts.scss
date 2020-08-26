@@ -1,4 +1,19 @@
 @import "./variables/variables";
+p {
+    padding-block-end: 12px;
+    padding-block-start: 5px;
+    color: #FFFFFF;
+}
+
+h2 {
+    padding-block-end: 22px;
+}
+
+h2,
+p {
+    margin: 0;
+}
+
 .question_header {
     @include small-title-style;
 }
