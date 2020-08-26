@@ -1,0 +1,14 @@
+@import "./variables/variables";
+.quotes_section {
+    // background-image: url(../img/bg-quotes.png);
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    background-color: black;
+}
+
+.quotes_wrapper {
+    padding-inline-end: $section-padding;
+    padding-inline-start: $section-padding;
+    padding-block-start: 38px;
+    padding-block-end: 46px;
+}

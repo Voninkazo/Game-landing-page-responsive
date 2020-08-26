@@ -1,0 +1,83 @@
+@import "./variables/variables";
+.quotes_lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding-inline-end: 12px;
+    padding-block-start: 9px;
+}
+
+.text_quotes_list {
+    margin: 0;
+    padding-block-end: 12px;
+    p {
+        padding: 8px;
+    }
+}
+
+.profile_photo {
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+}
+
+.quotes_container {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    >p {
+        padding-inline-start: 17px;
+    }
+}
+
+.quotes {
+    font-size: 14px;
+    line-height: 19px;
+    color: $default-text-color;
+}
+
+.dates {
+    font-size: 12px;
+    line-height: 16px;
+    color: $default-text-color;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.small {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+    color: $default-text-color;
+    opacity: 0.5;
+}
+
+.names {
+    font-family: 'bebas-neue-bold';
+    font-size: 21px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    color: #FFB548;
+    text-transform: uppercase;
+}
+
+@media (min-width: 1114px) {
+    .small {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .dates {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .quotes {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .names {
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
