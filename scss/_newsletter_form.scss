@@ -34,3 +34,26 @@ input {
     line-height: 19px;
     color: #FFB548;
 }
+
+@media (min-width: 1114px) {
+    label {
+        font-size: 14px;
+        line-height: 19px;
+    }
+     ::placeholder {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    label,
+    input {
+        padding-block-start: 6px;
+        padding-block-end: 6px;
+        padding-inline-start: 21px;
+    }
+    .subscribe_form {
+        padding-inline-start: 672px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

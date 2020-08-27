@@ -4,7 +4,11 @@
     padding-inline-start: 15px;
     padding-block-start: 33px;
     padding-block-end: 61px;
-    background-color: rgba(0, 0, 0, 0.918);
+    // background-color: rgba(0, 0, 0, 0.918);
+    background: linear-gradient(145deg, rgba(0, 0, 0, 0.788), black), url(../img/newsletter.png);
+    background-size: cover, auto 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0, -10px 80%;
 }
 
 .newsletter_wrapper {}
@@ -14,3 +18,19 @@
 }
 
 .subscribe_form {}
+
+@media (min-width: 1114px) {
+    .newsletter_wrapper {
+        max-width: 1114px;
+        margin: auto;
+        padding-block-end: 49px;
+    }
+    .newsletter {
+        padding-inline-start: 672px;
+        padding-block-start: 220px;
+    }
+    .section_newsletter {
+        padding: 0;
+        background: linear-gradient(60deg, rgba(0, 0, 0, 0), black), url(../img/newsletter_bg.png);
+    }
+}

@@ -28,5 +28,11 @@
     }
     .all_quotes {
         padding-block-start: 159px;
+        div:nth-of-type(2) {
+            transform: translateX(-25%);
+        }
+        div:nht-of-type(3) {
+            transform: translateX(-25% / 2);
+        }
     }
 }
