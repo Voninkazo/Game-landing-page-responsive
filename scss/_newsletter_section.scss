@@ -1,0 +1,16 @@
+@import "./variables/variables";
+.section_newsletter {
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    padding-block-start: 33px;
+    padding-block-end: 61px;
+    background-color: rgba(0, 0, 0, 0.918);
+}
+
+.newsletter_wrapper {}
+
+.newsletter {
+    padding-inline-start: calc((230px / 2) + 15px);
+}
+
+.subscribe_form {}

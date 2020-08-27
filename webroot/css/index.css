@@ -499,3 +499,44 @@ p {
   .names {
     font-size: 24px;
     line-height: 24px; } }
+
+.section_newsletter {
+  padding-inline-end: 15px;
+  padding-inline-start: 15px;
+  padding-block-start: 33px;
+  padding-block-end: 61px;
+  background-color: rgba(0, 0, 0, 0.918); }
+
+.newsletter {
+  padding-inline-start: calc((230px / 2) + 15px); }
+
+form {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  margin-block-start: 16px;
+  margin-block-end: 16px; }
+
+label {
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 16px; }
+
+label,
+input {
+  padding-block-start: 3px;
+  padding-block-end: 3px;
+  padding-inline-start: 16px; }
+
+input {
+  background-color: rgba(255, 255, 255, 0);
+  border: none; }
+
+::placeholder {
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFB548; }
