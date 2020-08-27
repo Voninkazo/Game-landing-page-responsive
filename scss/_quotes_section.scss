@@ -3,7 +3,7 @@
     // background-image: url(../img/bg-quotes.png);
     // background-size: cover;
     // background-repeat: no-repeat;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.87);
 }
 
 .quotes_wrapper {
@@ -11,4 +11,22 @@
     padding-inline-start: $section-padding;
     padding-block-start: 38px;
     padding-block-end: 46px;
+}
+
+@media (min-width: 1114px) {
+    .quotes_wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 1114px;
+        margin-inline-end: auto;
+        margin-inline-start: auto;
+        column-gap: 166px;
+        padding-block-start: 0;
+    }
+    .quotes_information {
+        padding-block-start: 303px;
+    }
+    .all_quotes {
+        padding-block-start: 159px;
+    }
 }
