@@ -577,3 +577,37 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-around; } }
+
+.footer_wrapper {
+  padding-inline-start: 15px;
+  padding-inline-start: 15px;
+  padding-block-end: 63px;
+  padding-block-start: 26px; }
+
+.link_logo_footer svg {
+  width: 50px;
+  height: 50px; }
+
+.icon_footer {
+  text-align: center; }
+
+.link_text__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0; }
+
+footer ul a {
+  font-family: 'open-sans-bold';
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF; }
+
+.nav_text_container {
+  padding-block-start: 42px;
+  padding-block-end: 42px; }
+  .nav_text_container ul:nth-of-type(1) {
+    margin-block-end: 21px; }

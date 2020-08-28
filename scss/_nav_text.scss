@@ -1,0 +1,25 @@
+@import "./variables/variables";
+.link_text__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+
+footer ul a {
+    font-family: 'open-sans-bold';
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $default-text-color;
+}
+
+.nav_text_container {
+    padding-block-start: 42px;
+    padding-block-end: 42px;
+    ul:nth-of-type(1) {
+        margin-block-end: 21px;
+    }
+}
