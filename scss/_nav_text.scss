@@ -23,3 +23,26 @@ footer ul a {
         margin-block-end: 21px;
     }
 }
+
+.paragrap_footer {
+    font-size: 12px;
+    line-height: 16px;
+    color: $default-text-color;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    text-align: center;
+    margin: 0;
+    padding-block-start: 14px;
+    padding-block-end: 14px;
+}
+
+.link_more_information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    li {
+        padding-block-start: 10px;
+        padding-block-end: 10px;
+    }
+}

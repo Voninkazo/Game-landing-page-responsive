@@ -1,1 +1,14 @@
 @import "./variables/variables";
+.link_icon__lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+
+.nav_icon_container {
+    padding-block-end: 28px;
+    opacity: 0.5;
+    border-bottom: 0.873968px solid #FFFFFF;
+}
