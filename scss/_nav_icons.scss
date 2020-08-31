@@ -7,8 +7,13 @@
     padding: 0;
 }
 
-.nav_icon_container {
-    padding-block-end: 28px;
-    opacity: 0.5;
-    border-bottom: 0.873968px solid #FFFFFF;
+@media (min-width: 1114px) {
+    .link_icon__lists {
+        margin: 0;
+    }
+    .nav_icon_container {
+        ul {
+            margin-block-start: 30px;
+        }
+    }
 }
