@@ -1,20 +1,46 @@
-.big_button {
+.big_button a {
     font-family: 'open-sans-bold';
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 3px;
+    display: inline-block;
+    color: #1A1917;
+}
+
+.medium_button a {
     padding-left: 8px;
     padding-right: 8px;
     padding-bottom: 12px;
     padding-top: 12px;
-    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
-    border-radius: 3px;
-    border: none;
-    a {
-        font-size: 14px;
-        line-height: 19px;
-        text-align: center;
-        color: #1A1917;
-    }
+    font-size: 14px;
+    text-align: center;
+    line-height: 19px;
 }
 
-.button {
+.medium_button {
     text-align: center;
+}
+
+.subcribe_button a {
+    display: inline-block;
+    padding-block-end: 15px;
+    padding-block-start: 11px;
+    padding-inline-end: calc(47px + 8px);
+    padding-inline-start: calc(47px + 8px);
+}
+
+@media (min-width: 1114px) {
+    .medium_button a {
+        padding-left: 16px;
+        padding-right: 9px;
+        padding-bottom: 20px;
+        padding-top: 17px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .subcribe_button a {
+        padding-inline-start: 70px;
+        padding-inline-end: 73px;
+        padding-block-end: 20px;
+        padding-block-start: 17px;
+    }
 }

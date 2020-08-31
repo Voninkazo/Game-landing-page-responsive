@@ -36,6 +36,9 @@ input {
 }
 
 @media (min-width: 1114px) {
+    form {
+        margin: 0;
+    }
     label {
         font-size: 14px;
         line-height: 19px;
@@ -51,9 +54,12 @@ input {
         padding-inline-start: 21px;
     }
     .subscribe_form {
-        padding-inline-start: 672px;
+        // padding-inline-start: 672px;
+        // display: flex;
+        // flex-direction: row;
+        // justify-content: space-around;
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        justify-content: flex-end;
+        padding-inline-start: 0;
     }
 }
