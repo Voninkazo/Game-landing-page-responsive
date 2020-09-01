@@ -1,0 +1,21 @@
+@import "./variables/variables";
+summary {
+    font-size: 21px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    color: #FFB548;
+    text-transform: uppercase;
+    font-family: 'bebas-neue-bold';
+    padding-block-end: 43px;
+    padding-block-start: 42px;
+}
+
+.feature_text_container {
+    padding-inline-start: 222px;
+}
+
+@media(min-width: 1114px) {
+    .feature_text_container {
+        padding-inline-start: 806px;
+    }
+}

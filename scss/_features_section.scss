@@ -3,18 +3,25 @@
     background-image: url(../img/features.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 40%, 50%;
     // padding: 20px;
-    background-position: 0 0;
 }
 
 .feature_wrapper {
     padding-block-end: 85px;
     padding-block-start: 82px;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+    ul {
+        padding: 0;
+    }
 }
 
 @media(min-width: 1114px) {
     .feature_wrapper {
         max-width: 1114px;
         margin: auto;
+        padding-block-start: 256px;
+        padding-block-end: 256px;
     }
 }
