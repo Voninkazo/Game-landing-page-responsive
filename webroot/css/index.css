@@ -451,6 +451,11 @@ p {
     padding-block-start: 0; }
   .quotes_information {
     padding-block-start: 303px; }
+    .quotes_information .medium_button {
+      text-align: start;
+      margin-block-start: 37px; }
+    .quotes_information .artice_text {
+      margin-block-start: 37px; }
   .all_quotes {
     padding-block-start: 159px; }
     .all_quotes div:nth-of-type(2) {
@@ -601,12 +606,12 @@ input {
     justify-content: flex-end;
     padding-inline-start: 0; } }
 
-footer {
+body > footer {
   background-color: rgba(0, 0, 0, 0.822); }
 
 .footer_wrapper {
   padding-inline-start: 15px;
-  padding-inline-start: 15px;
+  padding-inline-end: 15px;
   padding-block-end: 63px;
   padding-block-start: 26px; }
 

@@ -1,11 +1,11 @@
 @import "./variables/variables";
-footer {
+body>footer {
     background-color: rgba(0, 0, 0, 0.822);
 }
 
 .footer_wrapper {
     padding-inline-start: $section-padding;
-    padding-inline-start: $section-padding;
+    padding-inline-end: $section-padding;
     padding-block-end: 63px;
     padding-block-start: 26px;
 }
