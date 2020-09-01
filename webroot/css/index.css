@@ -626,7 +626,9 @@ footer nav {
     grid-template-columns: repeat(3, 1fr); }
   .link_logo_footer img {
     width: 91px;
-    height: 91px; } }
+    height: 91px; }
+  .icon_footer {
+    text-align: start; } }
 
 .link_icon__lists {
   display: flex;
