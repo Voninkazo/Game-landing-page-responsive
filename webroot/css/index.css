@@ -302,68 +302,62 @@ p {
     padding-block-end: 37px; }
   .section_royal p:nth-of-type(2) {
     padding-block-start: 26px; }
-  .section_royal h2 {
+  .section_royal .images_container h2 {
     padding-block-end: 33px;
     border-bottom: 1px solid #FFFFFF;
     margin: 0; }
-
-.royal-text {
-  padding-inline-start: calc(36px - 15px); }
-
-.royal_list_container {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  padding-bottom: calc(100% * 273 / 249); }
-  .royal_list_container li {
-    position: absolute; }
-    .royal_list_container li img {
-      max-width: 100%;
-      object-fit: cover;
-      width: 100%;
-      height: 100%;
-      display: block;
-      border-radius: 0.5rem; }
-
-.royal_list_container li:nth-of-type(1) {
-  left: 0;
-  top: 0;
-  right: calc(100% * 24 / 249);
-  z-index: 3; }
-
-.royal_list_container li:nth-of-type(2) {
-  transform: translateY(-50%) scale(calc(249 / 273));
-  top: 55%;
-  z-index: 2;
-  right: calc(100% * 12 / 249);
-  left: calc(100% * 12 / 249);
-  transform-origin: 100% 0%; }
-
-.royal_list_container li:nth-of-type(3) {
-  top: 0%;
-  transform-origin: 100% 0%;
-  z-index: 1;
-  padding-top: calc(100% * 24 / 249);
-  left: calc(100% * 24 / 249);
-  right: 0;
-  transform: scale(calc((273 - 48) / 273)); }
-
-@media (min-width: 1114px) {
-  .section_royal_wrapper {
-    max-width: 1114px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 30px;
-    padding-block-end: 265px;
-    padding-block-start: 200px; }
-  .royal-text {
-    padding-inline-start: calc(307px - 118px); }
-  .text_container {
-    max-width: calc(410px + 170px); }
-  .section_royal .images_container {
-    padding-inline-start: 30px; } }
+  .section_royal .royal-text {
+    padding-inline-start: calc(36px - 15px); }
+  .section_royal .royal_list_container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-bottom: calc(100% * 273 / 249); }
+    .section_royal .royal_list_container li {
+      position: absolute; }
+      .section_royal .royal_list_container li img {
+        max-width: 100%;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        display: block;
+        border-radius: 0.5rem; }
+  .section_royal .royal_list_container li:nth-of-type(1) {
+    left: 0;
+    top: 0;
+    right: calc(100% * 24 / 249);
+    z-index: 3; }
+  .section_royal .royal_list_container li:nth-of-type(2) {
+    transform: translateY(-50%) scale(calc(249 / 273));
+    top: 55%;
+    z-index: 2;
+    right: calc(100% * 12 / 249);
+    left: calc(100% * 12 / 249);
+    transform-origin: 100% 0%; }
+  .section_royal .royal_list_container li:nth-of-type(3) {
+    top: 0%;
+    transform-origin: 100% 0%;
+    z-index: 1;
+    padding-top: calc(100% * 24 / 249);
+    left: calc(100% * 24 / 249);
+    right: 0;
+    transform: scale(calc((273 - 48) / 273)); }
+  @media (min-width: 1114px) {
+    .section_royal .section_royal_wrapper {
+      max-width: 1114px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 30px;
+      padding-block-end: 265px;
+      padding-block-start: 200px; }
+    .section_royal .royal-text {
+      padding-inline-start: calc(307px - 118px); }
+    .section_royal .text_container {
+      max-width: calc(410px + 170px); }
+    .section_royal .section_royal .images_container {
+      padding-inline-start: 30px; } }
 
 .feature_section {
   background-image: url(../img/features.png);
@@ -601,18 +595,17 @@ input {
     padding-block-start: 6px;
     padding-block-end: 6px;
     padding-inline-start: 21px;
-    padding-inline-end: 60px; } }
-
-.subscribe_form {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end; }
-  .subscribe_form li:nth-of-type(1) {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 10px; }
-  .subscribe_form li:nth-of-type(2) {
-    margin-inline-start: 10px; }
+    padding-inline-end: 60px; }
+  .subscribe_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+    .subscribe_form li:nth-of-type(1) {
+      margin-block-start: 0;
+      margin-block-end: 0;
+      margin-inline-start: 10px; }
+    .subscribe_form li:nth-of-type(2) {
+      margin-inline-start: 10px; } }
 
 body > footer {
   background-color: rgba(0, 0, 0, 0.822); }

@@ -54,18 +54,17 @@ input {
         padding-inline-start: 21px;
         padding-inline-end: 60px;
     }
-}
-
-.subscribe_form {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    li:nth-of-type(1) {
-        margin-block-start: 0;
-        margin-block-end: 0;
-        margin-inline-start: 10px;
-    }
-    li:nth-of-type(2) {
-        margin-inline-start: 10px;
+    .subscribe_form {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        li:nth-of-type(1) {
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 10px;
+        }
+        li:nth-of-type(2) {
+            margin-inline-start: 10px;
+        }
     }
 }
