@@ -302,8 +302,6 @@ p {
     padding-block-end: 37px; }
   .section_royal p:nth-of-type(2) {
     padding-block-start: 26px; }
-  .section_royal .images_container {
-    max-width: calc(37px + 225px); }
   .section_royal h2 {
     padding-block-end: 33px;
     border-bottom: 1px solid #FFFFFF;
@@ -355,15 +353,17 @@ p {
   .section_royal_wrapper {
     max-width: 1114px;
     margin: auto;
-    padding-block-end: 265px; }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    padding-block-end: 265px;
+    padding-block-start: 200px; }
   .royal-text {
     padding-inline-start: calc(307px - 118px); }
   .text_container {
     max-width: calc(410px + 170px); }
-  .images_container {
-    max-width: calc(510px + 28px + 48px);
-    float: right;
-    clear: left; } }
+  .section_royal .images_container {
+    padding-inline-start: 30px; } }
 
 .feature_section {
   background-image: url(../img/features.png);
