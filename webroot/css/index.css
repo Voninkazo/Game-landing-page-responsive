@@ -82,7 +82,8 @@ main > header {
   text-align: center;
   margin: 0;
   padding-block-start: 7px;
-  padding-block-end: 7px; }
+  padding-block-end: 7px;
+  letter-spacing: 2px; }
 
 @media (min-width: 1114px) {
   .masthead_navigation {
@@ -94,7 +95,8 @@ main > header {
   .masthead_header {
     font-size: 80px;
     line-height: 80px;
-    letter-spacing: 3px; }
+    letter-spacing: 3px;
+    padding-block-end: 0; }
   .masthead_dropdown {
     display: block;
     text-align: center; } }
@@ -143,7 +145,8 @@ li {
     padding-bottom: 20px;
     padding-top: 17px;
     font-size: 16px;
-    line-height: 22px; }
+    line-height: 22px;
+    margin-block-start: 28px; }
   .subcribe_button a {
     padding-inline-start: 70px;
     padding-inline-end: 73px;
@@ -434,6 +437,9 @@ p {
     color: #FFB548;
     padding-top: 0;
     text-transform: uppercase; }
+  .system_list_container .cell {
+    font-size: 14px;
+    line-height: 16px; }
 
 @media (min-width: 1114px) {
   .system_section {
@@ -443,7 +449,13 @@ p {
     background-size: cover; }
   .system_list_container {
     padding-inline-end: calc(748px - 120px);
-    padding-block-start: 133px; }
+    padding-block-start: 133px;
+    width: 573px; }
+    .system_list_container .cell {
+      padding: 0;
+      font-size: 18px;
+      line-height: 22px;
+      padding-block-end: 16px; }
   .system-wrapper {
     max-width: 1114px;
     margin: auto; }
