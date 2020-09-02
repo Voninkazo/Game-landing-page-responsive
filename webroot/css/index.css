@@ -374,6 +374,8 @@ p {
     padding: 0; }
 
 @media (min-width: 1114px) {
+  .feature_section {
+    background-position: 50% 50%; }
   .feature_wrapper {
     max-width: 1114px;
     margin: auto;
@@ -752,8 +754,11 @@ summary {
   padding-block-start: 42px; }
 
 .feature_text_container {
-  padding-inline-start: 222px; }
+  padding-inline-start: 116px; }
 
 @media (min-width: 1114px) {
   .feature_text_container {
-    padding-inline-start: 806px; } }
+    padding-inline-start: calc(809px - 239px); }
+  summary {
+    font-size: 36px;
+    line-height: 36px; } }

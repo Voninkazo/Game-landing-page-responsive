@@ -11,11 +11,15 @@ summary {
 }
 
 .feature_text_container {
-    padding-inline-start: 222px;
+    padding-inline-start: 116px;
 }
 
 @media(min-width: 1114px) {
     .feature_text_container {
-        padding-inline-start: 806px;
+        padding-inline-start: calc(809px - 239px);
+    }
+    summary {
+        font-size: 36px;
+        line-height: 36px;
     }
 }

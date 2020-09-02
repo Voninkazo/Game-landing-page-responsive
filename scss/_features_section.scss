@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40%, 50%;
-    // padding: 20px;
 }
 
 .feature_wrapper {
@@ -18,6 +17,9 @@
 }
 
 @media(min-width: 1114px) {
+    .feature_section {
+        background-position: 50% 50%;
+    }
     .feature_wrapper {
         max-width: 1114px;
         margin: auto;
