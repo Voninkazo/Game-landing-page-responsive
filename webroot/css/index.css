@@ -280,11 +280,6 @@ p {
   letter-spacing: 2px;
   color: #FFFFFF; }
 
-.article_text {
-  font-size: 14px;
-  line-height: 16px;
-  color: #FFFFFF; }
-
 @media (min-width: 1114px) {
   .question_header {
     font-size: 24px;
@@ -292,9 +287,7 @@ p {
   .section_heading {
     font-size: 80px;
     line-height: 80px;
-    letter-spacing: 3px; }
-  .article_text {
-    line-height: 22px; } }
+    letter-spacing: 3px; } }
 
 .section_royal {
   padding: 15px;
@@ -309,8 +302,6 @@ p {
     padding-block-end: 33px;
     border-bottom: 1px solid #FFFFFF;
     margin: 0; }
-  .section_royal .royal-text {
-    padding-inline-start: calc(36px - 15px); }
   .section_royal .royal_list_container {
     list-style: none;
     margin: 0;
@@ -357,8 +348,6 @@ p {
       padding-block-start: 200px; }
     .section_royal .royal-text {
       padding-inline-start: calc(307px - 118px); }
-    .section_royal .text_container {
-      max-width: calc(410px + 170px); }
     .section_royal .section_royal .images_container {
       padding-inline-start: 30px; } }
 
@@ -437,9 +426,6 @@ p {
     color: #FFB548;
     padding-top: 0;
     text-transform: uppercase; }
-  .system_list_container .cell {
-    font-size: 14px;
-    line-height: 16px; }
 
 @media (min-width: 1114px) {
   .system_section {
@@ -453,8 +439,6 @@ p {
     width: 573px; }
     .system_list_container .cell {
       padding: 0;
-      font-size: 18px;
-      line-height: 22px;
       padding-block-end: 16px; }
   .system-wrapper {
     max-width: 1114px;
@@ -485,8 +469,6 @@ p {
     padding-block-start: 303px; }
     .quotes_information .medium_button {
       text-align: start;
-      margin-block-start: 37px; }
-    .quotes_information .artice_text {
       margin-block-start: 37px; }
   .all_quotes {
     padding-block-start: 159px; }
@@ -774,3 +756,29 @@ summary {
   summary {
     font-size: 36px;
     line-height: 36px; } }
+
+.cell {
+  font-size: 14px;
+  line-height: 16px; }
+
+.text_information {
+  font-size: 14px;
+  line-height: 16px;
+  margin-block-start: 37px; }
+
+@media (min-width: 1114px) {
+  .cell {
+    font-size: 18px;
+    line-height: 22px; }
+  .text_information {
+    font-size: 18px;
+    line-height: 22px; } }
+
+.royal-text {
+  padding-inline-start: calc(36px - 15px); }
+
+@media (min-width: 1114px) {
+  .royal-text {
+    padding-inline-start: calc(307px - 118px); }
+  .text_container {
+    max-width: calc(410px + 170px); } }

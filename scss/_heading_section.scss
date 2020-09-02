@@ -22,10 +22,9 @@ p {
     @include big-header-style;
 }
 
-.article_text {
-    @include texts-style;
-}
-
+// .article_text {
+//     @include texts-style;
+// }
 @media (min-width: 1114px) {
     .question_header {
         @include deskt-title-style;
@@ -33,7 +32,7 @@ p {
     .section_heading {
         @include desk-header;
     }
-    .article_text {
-        @include deskt-text-style;
-    }
+    // .article_text {
+    //     @include deskt-text-style;
+    // }
 }

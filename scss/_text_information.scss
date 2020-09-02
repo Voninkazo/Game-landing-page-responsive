@@ -1,0 +1,22 @@
+@import "./variables/variables";
+.cell {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.text_information {
+    font-size: 14px;
+    line-height: 16px;
+    margin-block-start: 37px;
+}
+
+@media (min-width:1114px) {
+    .cell {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .text_information {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

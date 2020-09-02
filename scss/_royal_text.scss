@@ -1,0 +1,14 @@
+@import "./variables/variables";
+.royal-text {
+    padding-inline-start: calc(36px - 15px);
+    // margin: 0;
+}
+
+@media (min-width:1114px) {
+    .royal-text {
+        padding-inline-start: calc(307px - 118px);
+    }
+    .text_container {
+        max-width: calc(410px + 170px);
+    }
+}

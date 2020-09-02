@@ -60,10 +60,6 @@
         padding-top: 0;
         text-transform: uppercase;
     }
-    .cell {
-        font-size: 14px;
-        line-height: 16px;
-    }
 }
 
 @media (min-width: 1114px) {
@@ -80,8 +76,6 @@
         .cell {
             // white-space: nowrap;
             padding: 0;
-            font-size: 18px;
-            line-height: 22px;
             padding-block-end: 16px;
         }
     }
