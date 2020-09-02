@@ -423,14 +423,15 @@ p {
     padding: 8px;
     border: 0.5px solid #464545; }
   .system_list_container h4 {
-    font-family: 'bebas-bold';
+    font-family: 'bebas-neue-bold';
     padding-top: 68px;
     text-align: left;
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 24px;
+    line-height: 24px;
     letter-spacing: 2px;
     color: #FFB548;
-    padding-top: 0; }
+    padding-top: 0;
+    text-transform: uppercase; }
 
 @media (min-width: 1114px) {
   .system_section {
@@ -640,7 +641,7 @@ body > footer {
   padding-block-start: 26px; }
 
 footer nav {
-  border-bottom: 0.873968px solid #FFFFFF; }
+  border-bottom: 0.87397px solid #FFFFFF; }
 
 .icon_footer {
   text-align: center; }

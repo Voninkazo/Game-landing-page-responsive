@@ -31,7 +31,7 @@ main>header {
     li {
         padding: 12px;
         a {
-            border: 0.97049px solid #FFFFFF;
+            border: 0.97049px solid $default-text-color;
             width: 12px;
             height: 12px;
             border-radius: 9999px;
@@ -40,7 +40,7 @@ main>header {
             }
         }
         .current_page {
-            background-color: #FFFFFF;
+            background-color: $default-text-color;
         }
         .arrow_next {
             border: none;
