@@ -1,37 +1,45 @@
-@import "./variables/variables";
-body>header>div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    flex-wrap: wrap;
-}
-
-// .header_container {
-//     display: flex;
-//     justify-content: space-around;
-//     flex-direction: row;
-// }
-body>header {
-    padding-block-start: 9px;
-    padding-block-end: 179px;
-    padding-inline-start: 15px;
-    padding-inline-end: 15px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 931px;
-    height: 144.88px;
-}
-
-h1 {
-    margin: 0;
-}
-
-@media (min-width: 1114px) {
-    body>header>div {
-        margin-inline-start: auto;
-        margin-inline-end: auto;
-        max-width: 1114px;
+    @import "./variables/variables";
+    body>header .header_wrapper {
+        position: absolute;
+        left: 0px;
+        top: 21px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-block-start: 9px;
     }
-}
+    
+    h1 {
+        margin: 0;
+        margin-inline-start: 10px;
+        margin-block-start: 5px;
+    }
+    
+    .form ul {
+        display: none;
+    }
+    
+    @media (min-width: 1114px) {
+        body>header>.header_wrapper {
+            margin: auto;
+            max-width: 1114px;
+            h1 {
+                margin-inline-start: 119px;
+            }
+        }
+        .form {
+            display: flex;
+            ul {
+                display: flex;
+                padding: 0;
+                border-left: 0.873968px solid #cccc;
+                li {
+                    margin-inline-start: 17px;
+                }
+            }
+        }
+        .link_sos_logo svg {
+            width: 50px;
+            height: 50px;
+        }
+    }

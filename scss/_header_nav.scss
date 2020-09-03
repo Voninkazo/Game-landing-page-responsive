@@ -11,21 +11,22 @@
             line-height: 16px;
             letter-spacing: 0.1em;
             text-transform: uppercase;
-            color: $default-text-color;
+            color: #FFB548;
         }
     }
 }
 
 [type="checkbox"] {
-    visibility: hidden;
+    display: none;
 }
 
-body>header .navigation {
+body>nav {
     padding: 1rem;
-    background-color: red;
+    background-color: #ffffff;
     position: absolute;
     z-index: 3;
-    top: 0;
+    border-radius: .5rem;
+    top: 2%;
     left: 0;
     bottom: 0;
     width: 250px;
@@ -33,9 +34,10 @@ body>header .navigation {
     box-shadow: 0 0 50px rgba(0, 0, 0, .5);
     transform: translateX(-110%);
     transition: transform 0.3s;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
-[type="checkbox"]:checked~header nav {
+[type="checkbox"]:checked~body>nav {
     padding: 1rem;
     z-index: 3;
     top: 0;
@@ -49,12 +51,12 @@ body>header .navigation {
     transform: translateX(-15%);
 }
 
-body>[type="checkbox"]:checked~nav {
+body>[type="checkbox"]:checked~.navigation {
     transform: translateX(0);
 }
 
 @media (min-width: 1114px) {
-    body>header .navigation {
+    body>nav {
         padding: 0;
         background: none;
         box-shadow: none;
@@ -66,7 +68,6 @@ body>[type="checkbox"]:checked~nav {
         .header_nav {
             flex-direction: row;
             display: flex;
-            justify-content: space-between;
             li {
                 margin: 6px;
                 white-space: nowrap;
@@ -75,5 +76,28 @@ body>[type="checkbox"]:checked~nav {
     }
     .icon_menu {
         display: none;
+    }
+    .header_nav {
+        li {
+            margin: 0;
+            padding-block-end: 0;
+            padding-block-start: 0;
+            margin-inline-start: 10px;
+        }
+    }
+    .dropdown {
+        margin-inline-end: 10px;
+        border: none;
+        background-color: rgba($color: #000000, $alpha: 0);
+        color: $default-text-color;
+        option {
+            background-color: #000000;
+            color: $default-text-color;
+            border: none;
+        }
+    }
+    label,
+    input {
+        padding: 0;
     }
 }
