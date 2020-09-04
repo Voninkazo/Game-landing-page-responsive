@@ -5,8 +5,8 @@
     padding-block-start: 33px;
     padding-block-end: 61px;
     // background-color: rgba(0, 0, 0, 0.918);
-    background: linear-gradient(145deg, black, black), url(../img/newsletter.png);
-    background-size: cover, auto 100%;
+    background: linear-gradient(145deg, rgba(255, 225, 225, 0), black), url(../img/newsletter.png), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 0, -10px 80%;
 }
