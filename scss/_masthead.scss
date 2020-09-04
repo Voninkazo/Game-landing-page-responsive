@@ -1,85 +1,100 @@
-@import "./variables/variables";
-.section_masthead {
-    padding: $mobile-section-padding;
-}
-
-main>header {
-    background-image: url(../img/bg-big-image-1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 34% 40%;
-}
-
-.masthead_navigation {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-block-start: 156px;
-    padding-block-end: 57px;
-    .masthead_dropdown {
-        display: flex;
-        flex-direction: column;
+    @import "./variables/variables";
+    .section_masthead {
+        padding: $mobile-section-padding;
     }
-}
-
-.masthead_list_container {
-    // background-color: red;
-    @include reset-list;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    li {
-        padding: 12px;
-        a {
-            border: 0.97049px solid $default-text-color;
-            width: 12px;
-            height: 12px;
-            border-radius: 9999px;
-            span {
-                display: none;
+    
+    main>header {
+        background-image: url(../img/bg-big-image-1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 34% 40%;
+    }
+    
+    .masthead_navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-block-start: 156px;
+        padding-block-end: 57px;
+        .masthead_dropdown {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    
+    .masthead_dropdown {
+        label {
+            text-transform: uppercase;
+        }
+        select {
+            background-color: rgba($color: #000000, $alpha: 0);
+            color: $default-text-color;
+            border: none;
+            option {
+                background-color: #000000;
+                color: $default-text-color;
             }
         }
-        .current_page {
-            background-color: $default-text-color;
-        }
-        .arrow_next {
-            border: none;
-        }
     }
-}
-
-.masthead_header {
-    @include big-header-style;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0;
-    padding-block-start: 389px;
-}
-
-.masthead_title {
-    @include small-title-style;
-    text-align: center;
-    margin: 0;
-    padding-block-start: 7px;
-    padding-block-end: 7px;
-    letter-spacing: 2px;
-}
-
-@media (min-width: 1114px) {
-    .masthead_navigation {
-        justify-content: center;
-        padding-block-start: 143px;
-        padding-block-end: 64px;
-    }
+    
     .masthead_list_container {
-        display: none;
+        // background-color: red;
+        @include reset-list;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        li {
+            padding: 12px;
+            a {
+                border: 0.97049px solid $default-text-color;
+                width: 12px;
+                height: 12px;
+                border-radius: 9999px;
+                span {
+                    display: none;
+                }
+            }
+            .current_page {
+                background-color: $default-text-color;
+            }
+            .arrow_next {
+                border: none;
+            }
+        }
     }
+    
     .masthead_header {
-        @include desk-header;
-        padding-block-end: 0;
-    }
-    .masthead_dropdown {
-        display: block;
+        @include big-header-style;
         text-align: center;
+        text-transform: uppercase;
+        margin: 0;
+        padding-block-start: 389px;
     }
-}
+    
+    .masthead_title {
+        @include small-title-style;
+        text-align: center;
+        margin: 0;
+        padding-block-start: 7px;
+        padding-block-end: 7px;
+        letter-spacing: 2px;
+    }
+    
+    @media (min-width: 1114px) {
+        .masthead_navigation {
+            justify-content: center;
+            padding-block-start: 143px;
+            padding-block-end: 64px;
+        }
+        .masthead_list_container {
+            display: none;
+        }
+        .masthead_header {
+            @include desk-header;
+            padding-block-end: 0;
+        }
+        .masthead_dropdown {
+            display: block;
+            text-align: center;
+        }
+    }

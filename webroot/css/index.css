@@ -41,6 +41,17 @@ main > header {
     display: flex;
     flex-direction: column; }
 
+.masthead_dropdown label {
+  text-transform: uppercase; }
+
+.masthead_dropdown select {
+  background-color: rgba(0, 0, 0, 0);
+  color: #FFFFFF;
+  border: none; }
+  .masthead_dropdown select option {
+    background-color: #000000;
+    color: #FFFFFF; }
+
 .masthead_list_container {
   list-style: none;
   padding: 0;
@@ -207,7 +218,7 @@ h1 {
       line-height: 16px;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      color: #FFB548; }
+      color: #FFFFFF; }
 
 [type="checkbox"] {
   display: none; }
@@ -244,6 +255,14 @@ body > nav {
 body > [type="checkbox"]:checked ~ .navigation {
   transform: translateX(0); }
 
+.dropdown {
+  background-color: rgba(0, 0, 0, 0);
+  color: #FFFFFF;
+  border: none; }
+  .dropdown option {
+    background-color: #000000;
+    color: #FFFFFF; }
+
 @media (min-width: 1114px) {
   body > nav {
     padding: 0;
@@ -269,13 +288,7 @@ body > [type="checkbox"]:checked ~ .navigation {
     margin-inline-start: 10px; }
   .dropdown {
     margin-inline-end: 10px;
-    border: none;
-    background-color: rgba(0, 0, 0, 0);
-    color: #FFFFFF; }
-    .dropdown option {
-      background-color: #000000;
-      color: #FFFFFF;
-      border: none; }
+    border: none; }
   label,
   input {
     padding: 0; } }
@@ -806,3 +819,47 @@ summary {
     padding-inline-start: calc(307px - 118px); }
   .text_container {
     max-width: calc(410px + 170px); } }
+
+:root {
+  --default-color: #ffffff; }
+
+details {
+  position: relative; }
+
+summary::-webkit-details-marker {
+  display: none; }
+
+summary::before {
+  content: '';
+  position: absolute;
+  border: 2px solid var(--default-color);
+  border-radius: 50%;
+  top: 3rem;
+  left: -2rem;
+  padding: 8px; }
+
+details[open]:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  color: var(--default-color);
+  top: 0px;
+  left: 0.5rem;
+  border: 2px solid var(--default-color);
+  height: 100%; }
+
+details[open] summary::before {
+  background-color: var(--default-color); }
+
+details::before {
+  content: '';
+  width: 2px;
+  height: 100%;
+  background-color: var(--default-color);
+  top: 3rem;
+  left: -1.5rem;
+  position: absolute;
+  display: block; }
+
+.feature_section ul li:last-child details::before {
+  bottom: auto;
+  height: auto; }
