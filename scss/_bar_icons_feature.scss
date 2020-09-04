@@ -1,0 +1,54 @@
+@import "./variables/variables";
+:root {
+    --default-color: #ffffff;
+}
+
+details {
+    position: relative;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::before {
+    content: '';
+    position: absolute;
+    border: 2px solid var(--default-color);
+    border-radius: 50%;
+    top: 3rem;
+    left: -2rem;
+    padding: 8px;
+}
+
+details[open]:not(:last-child)::before {
+    content: '';
+    position: absolute;
+    color: var(--default-color);
+    top: 0px;
+    left: 0.5rem;
+    border: 2px solid var(--default-color);
+    height: 100%;
+}
+
+details[open] {
+    summary::before {
+        background-color: var(--default-color);
+    }
+}
+
+details::before {
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-color: var(--default-color);
+    top: 3rem;
+    left: -1.5rem;
+    position: absolute;
+    display: block;
+}
+
+.feature_section ul li:last-child details::before {
+    bottom: auto;
+    height: auto;
+}
