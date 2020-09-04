@@ -485,7 +485,7 @@ p {
     text-align: center; } }
 
 .quotes_section {
-  background-color: rgba(0, 0, 0, 0.87); }
+  background-image: linear-gradient(black, black); }
 
 .quotes_wrapper {
   padding-inline-end: 15px;
@@ -587,7 +587,7 @@ p {
   padding-inline-start: 15px;
   padding-block-start: 33px;
   padding-block-end: 61px;
-  background: linear-gradient(145deg, rgba(0, 0, 0, 0.788), black), url(../img/newsletter.png);
+  background: linear-gradient(145deg, black, black), url(../img/newsletter.png);
   background-size: cover, auto 100%;
   background-repeat: no-repeat;
   background-position: 0 0, -10px 80%; }
@@ -605,7 +605,10 @@ p {
     padding-block-start: 220px; }
   .section_newsletter {
     padding: 0;
-    background: linear-gradient(60deg, rgba(0, 0, 0, 0), black), url(../img/newsletter_bg.png); } }
+    background-image: radial-gradient(45.43% 53.19% at 50% 50%, rgba(255, 225, 225, 0) 0%, rgba(0, 0, 0, 0) 46.15%, #080A0B 99.74%), url(../img/newsletter_bg.png), linear-gradient(black, black);
+    background-repeat: no-repeat;
+    background-position: -90% 20%, -90% 30%, 0 0;
+    background-size: cover; } }
 
 .subscribe_form {
   padding: 0; }
